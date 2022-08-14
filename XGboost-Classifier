@@ -1,3 +1,5 @@
+
+#predict power is low than second model
 CREATE OR REPLACE MODEL `ecommerce.classification_model_3`
         OPTIONS
           (model_type='BOOSTED_TREE_CLASSIFIER' , l2_reg = 0.1, num_parallel_tree = 8, max_tree_depth = 10,
